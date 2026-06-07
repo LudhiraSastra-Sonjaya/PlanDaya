@@ -21,7 +21,7 @@ return [
     // Allow only the configured frontend origin. Defaults to Vite dev server.
     'allowed_methods' => ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
 
-    'allowed_origins' => array_filter(explode(',', env('FRONTEND_URL', 'http://localhost:5173'))),
+    'allowed_origins' => array_filter(explode(',', env('FRONTEND_URL', 'http://172.20.10.3:5173'))),
 
     'allowed_origins_patterns' => [],
 

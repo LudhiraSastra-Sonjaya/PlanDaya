@@ -1,4 +1,4 @@
-const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://172.20.10.3:8000/api';
 
 const TOKEN_KEY = 'plandaya_token';
 const USER_KEY  = 'plandaya_user';
